@@ -1,0 +1,4 @@
+#!/bin/bash
+export 'JAVA_HOME=/Applications/AndroidStudio3.6.2.app/Contents/jre/jdk/Contents/Home/jre'
+cd '/Users/khl09/.ssh/KMP/KMPStarter'
+./gradlew $@

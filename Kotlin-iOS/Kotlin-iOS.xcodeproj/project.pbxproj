@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2AD7B95E244F07B5004687D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7B95D244F07B5004687D3 /* AppDelegate.swift */; };
+		2AD7B960244F07B5004687D3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7B95F244F07B5004687D3 /* SceneDelegate.swift */; };
+		2AD7B962244F07B5004687D3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7B961244F07B5004687D3 /* ContentView.swift */; };
+		2AD7B964244F07B5004687D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AD7B963244F07B5004687D3 /* Assets.xcassets */; };
+		2AD7B967244F07B5004687D3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AD7B966244F07B5004687D3 /* Preview Assets.xcassets */; };
+		2AD7B96A244F07B5004687D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AD7B968244F07B5004687D3 /* LaunchScreen.storyboard */; };
+		2AD7B975244F07B6004687D3 /* Kotlin_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7B974244F07B6004687D3 /* Kotlin_iOSTests.swift */; };
+		2AD7B980244F07B6004687D3 /* Kotlin_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7B97F244F07B6004687D3 /* Kotlin_iOSUITests.swift */; };
+		2AD7B990244F089F004687D3 /* SharedCode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AD7B98F244F089F004687D3 /* SharedCode.framework */; };
+		2AD7B991244F089F004687D3 /* SharedCode.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2AD7B98F244F089F004687D3 /* SharedCode.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2AD7B971244F07B6004687D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AD7B952244F07B4004687D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AD7B959244F07B5004687D3;
+			remoteInfo = "Kotlin-iOS";
+		};
+		2AD7B97C244F07B6004687D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AD7B952244F07B4004687D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AD7B959244F07B5004687D3;
+			remoteInfo = "Kotlin-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2AD7B992244F089F004687D3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2AD7B991244F089F004687D3 /* SharedCode.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2AD7B95A244F07B5004687D3 /* Kotlin-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kotlin-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AD7B95D244F07B5004687D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2AD7B95F244F07B5004687D3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2AD7B961244F07B5004687D3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2AD7B963244F07B5004687D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2AD7B966244F07B5004687D3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2AD7B969244F07B5004687D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2AD7B96B244F07B6004687D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AD7B970244F07B6004687D3 /* Kotlin-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kotlin-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AD7B974244F07B6004687D3 /* Kotlin_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kotlin_iOSTests.swift; sourceTree = "<group>"; };
+		2AD7B976244F07B6004687D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AD7B97B244F07B6004687D3 /* Kotlin-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kotlin-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AD7B97F244F07B6004687D3 /* Kotlin_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kotlin_iOSUITests.swift; sourceTree = "<group>"; };
+		2AD7B981244F07B6004687D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AD7B98F244F089F004687D3 /* SharedCode.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SharedCode.framework; path = "../SharedCode/build/xcode-frameworks/SharedCode.framework"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AD7B957244F07B5004687D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AD7B990244F089F004687D3 /* SharedCode.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AD7B96D244F07B6004687D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AD7B978244F07B6004687D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AD7B951244F07B4004687D3 = {
+			isa = PBXGroup;
+			children = (
+				2AD7B95C244F07B5004687D3 /* Kotlin-iOS */,
+				2AD7B973244F07B6004687D3 /* Kotlin-iOSTests */,
+				2AD7B97E244F07B6004687D3 /* Kotlin-iOSUITests */,
+				2AD7B95B244F07B5004687D3 /* Products */,
+				2AD7B98D244F0880004687D3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2AD7B95B244F07B5004687D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AD7B95A244F07B5004687D3 /* Kotlin-iOS.app */,
+				2AD7B970244F07B6004687D3 /* Kotlin-iOSTests.xctest */,
+				2AD7B97B244F07B6004687D3 /* Kotlin-iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2AD7B95C244F07B5004687D3 /* Kotlin-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2AD7B95D244F07B5004687D3 /* AppDelegate.swift */,
+				2AD7B95F244F07B5004687D3 /* SceneDelegate.swift */,
+				2AD7B961244F07B5004687D3 /* ContentView.swift */,
+				2AD7B963244F07B5004687D3 /* Assets.xcassets */,
+				2AD7B968244F07B5004687D3 /* LaunchScreen.storyboard */,
+				2AD7B96B244F07B6004687D3 /* Info.plist */,
+				2AD7B965244F07B5004687D3 /* Preview Content */,
+			);
+			path = "Kotlin-iOS";
+			sourceTree = "<group>";
+		};
+		2AD7B965244F07B5004687D3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2AD7B966244F07B5004687D3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2AD7B973244F07B6004687D3 /* Kotlin-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				2AD7B974244F07B6004687D3 /* Kotlin_iOSTests.swift */,
+				2AD7B976244F07B6004687D3 /* Info.plist */,
+			);
+			path = "Kotlin-iOSTests";
+			sourceTree = "<group>";
+		};
+		2AD7B97E244F07B6004687D3 /* Kotlin-iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2AD7B97F244F07B6004687D3 /* Kotlin_iOSUITests.swift */,
+				2AD7B981244F07B6004687D3 /* Info.plist */,
+			);
+			path = "Kotlin-iOSUITests";
+			sourceTree = "<group>";
+		};
+		2AD7B98D244F0880004687D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2AD7B98F244F089F004687D3 /* SharedCode.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2AD7B959244F07B5004687D3 /* Kotlin-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AD7B984244F07B6004687D3 /* Build configuration list for PBXNativeTarget "Kotlin-iOS" */;
+			buildPhases = (
+				2AD7B956244F07B5004687D3 /* Sources */,
+				2AD7B957244F07B5004687D3 /* Frameworks */,
+				2AD7B958244F07B5004687D3 /* Resources */,
+				2AD7B992244F089F004687D3 /* Embed Frameworks */,
+				2AD7B993244F08DA004687D3 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kotlin-iOS";
+			productName = "Kotlin-iOS";
+			productReference = 2AD7B95A244F07B5004687D3 /* Kotlin-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2AD7B96F244F07B6004687D3 /* Kotlin-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AD7B987244F07B6004687D3 /* Build configuration list for PBXNativeTarget "Kotlin-iOSTests" */;
+			buildPhases = (
+				2AD7B96C244F07B6004687D3 /* Sources */,
+				2AD7B96D244F07B6004687D3 /* Frameworks */,
+				2AD7B96E244F07B6004687D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AD7B972244F07B6004687D3 /* PBXTargetDependency */,
+			);
+			name = "Kotlin-iOSTests";
+			productName = "Kotlin-iOSTests";
+			productReference = 2AD7B970244F07B6004687D3 /* Kotlin-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2AD7B97A244F07B6004687D3 /* Kotlin-iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AD7B98A244F07B6004687D3 /* Build configuration list for PBXNativeTarget "Kotlin-iOSUITests" */;
+			buildPhases = (
+				2AD7B977244F07B6004687D3 /* Sources */,
+				2AD7B978244F07B6004687D3 /* Frameworks */,
+				2AD7B979244F07B6004687D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AD7B97D244F07B6004687D3 /* PBXTargetDependency */,
+			);
+			name = "Kotlin-iOSUITests";
+			productName = "Kotlin-iOSUITests";
+			productReference = 2AD7B97B244F07B6004687D3 /* Kotlin-iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2AD7B952244F07B4004687D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Kristopher Hill";
+				TargetAttributes = {
+					2AD7B959244F07B5004687D3 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					2AD7B96F244F07B6004687D3 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 2AD7B959244F07B5004687D3;
+					};
+					2AD7B97A244F07B6004687D3 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 2AD7B959244F07B5004687D3;
+					};
+				};
+			};
+			buildConfigurationList = 2AD7B955244F07B4004687D3 /* Build configuration list for PBXProject "Kotlin-iOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2AD7B951244F07B4004687D3;
+			productRefGroup = 2AD7B95B244F07B5004687D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2AD7B959244F07B5004687D3 /* Kotlin-iOS */,
+				2AD7B96F244F07B6004687D3 /* Kotlin-iOSTests */,
+				2AD7B97A244F07B6004687D3 /* Kotlin-iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2AD7B958244F07B5004687D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AD7B96A244F07B5004687D3 /* LaunchScreen.storyboard in Resources */,
+				2AD7B967244F07B5004687D3 /* Preview Assets.xcassets in Resources */,
+				2AD7B964244F07B5004687D3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AD7B96E244F07B6004687D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AD7B979244F07B6004687D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2AD7B993244F08DA004687D3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\ncd \"$SRCROOT/../SharedCode/build/xcode-frameworks\"\n./gradlew :SharedCode:packForXCode -PXCODE_CONFIGURATION=${CONFIGURATION}\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AD7B956244F07B5004687D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AD7B95E244F07B5004687D3 /* AppDelegate.swift in Sources */,
+				2AD7B960244F07B5004687D3 /* SceneDelegate.swift in Sources */,
+				2AD7B962244F07B5004687D3 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AD7B96C244F07B6004687D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AD7B975244F07B6004687D3 /* Kotlin_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AD7B977244F07B6004687D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AD7B980244F07B6004687D3 /* Kotlin_iOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2AD7B972244F07B6004687D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2AD7B959244F07B5004687D3 /* Kotlin-iOS */;
+			targetProxy = 2AD7B971244F07B6004687D3 /* PBXContainerItemProxy */;
+		};
+		2AD7B97D244F07B6004687D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2AD7B959244F07B5004687D3 /* Kotlin-iOS */;
+			targetProxy = 2AD7B97C244F07B6004687D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2AD7B968244F07B5004687D3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AD7B969244F07B5004687D3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2AD7B982244F07B6004687D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2AD7B983244F07B6004687D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2AD7B985244F07B6004687D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Kotlin-iOS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "$(SRCROOT)/../SharedCode/build/xcode-frameworks";
+				INFOPLIST_FILE = "Kotlin-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.research.kmp.Kotlin-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2AD7B986244F07B6004687D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Kotlin-iOS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "$(SRCROOT)/../SharedCode/build/xcode-frameworks";
+				INFOPLIST_FILE = "Kotlin-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.research.kmp.Kotlin-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2AD7B988244F07B6004687D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Kotlin-iOSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.research.kmp.Kotlin-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kotlin-iOS.app/Kotlin-iOS";
+			};
+			name = Debug;
+		};
+		2AD7B989244F07B6004687D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Kotlin-iOSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.research.kmp.Kotlin-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kotlin-iOS.app/Kotlin-iOS";
+			};
+			name = Release;
+		};
+		2AD7B98B244F07B6004687D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Kotlin-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.research.kmp.Kotlin-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kotlin-iOS";
+			};
+			name = Debug;
+		};
+		2AD7B98C244F07B6004687D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Kotlin-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.research.kmp.Kotlin-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kotlin-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AD7B955244F07B4004687D3 /* Build configuration list for PBXProject "Kotlin-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AD7B982244F07B6004687D3 /* Debug */,
+				2AD7B983244F07B6004687D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AD7B984244F07B6004687D3 /* Build configuration list for PBXNativeTarget "Kotlin-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AD7B985244F07B6004687D3 /* Debug */,
+				2AD7B986244F07B6004687D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AD7B987244F07B6004687D3 /* Build configuration list for PBXNativeTarget "Kotlin-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AD7B988244F07B6004687D3 /* Debug */,
+				2AD7B989244F07B6004687D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AD7B98A244F07B6004687D3 /* Build configuration list for PBXNativeTarget "Kotlin-iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AD7B98B244F07B6004687D3 /* Debug */,
+				2AD7B98C244F07B6004687D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2AD7B952244F07B4004687D3 /* Project object */;
+}

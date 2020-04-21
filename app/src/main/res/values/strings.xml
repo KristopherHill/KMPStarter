@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">KMPStarter</string>
+    <string name="systemOs">SystemOs</string>
+    <string name="userId">UserId</string>
+</resources>
